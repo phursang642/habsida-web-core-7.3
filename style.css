@@ -40,15 +40,15 @@ body {
 
 .brand-item {
   display: block;
-  border: none;        /* remove border */
-  padding: 0;          /* remove padding */
-  background: none;    /* remove background */
+  border: none;        
+  padding: 0;          
+  background: none;    
   cursor: pointer;
 }
 
 .brand-item img {
   width: 100%;
-  height: auto;        /* let SVG keep its natural size */
+  height: auto;        
   display: block;
 }
 
@@ -60,8 +60,9 @@ body {
   display: none;
 }
 
-  er-pagination {
-    position: relative;
+  swiper-pagination {
+    display: flex;
+    justify-content: center;
     margin-top: 12px;
   }
 
@@ -69,6 +70,10 @@ body {
 .brand-toggle {
   display: none;
 
+}
+
+swiper-wrapper{
+  padding-bottom: 24px;
 }
 
 /* tablet and above 769 */
